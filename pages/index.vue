@@ -28,12 +28,12 @@
 
 <script>
 export default {
-  name: "IndexPage",
+  name: 'IndexPage',
   methods: {
-    scrollToForm() {
-      const el = this.$refs.registerForm;
+    scrollToForm () {
+      const el = this.$refs.registerForm
       if (el) {
-        el.scrollIntoView({ behavior: 'smooth' });
+        el.scrollIntoView({ behavior: 'smooth' })
       }
     }
   }

@@ -15,5 +15,8 @@ module.exports = {
   plugins: [
   ],
   // add your custom rules here
-  rules: {}
+  rules: {
+    'vue/html-quotes': ['error', 'double'],
+    quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }]
+  }
 }
