@@ -1,5 +1,5 @@
 # nuxt-app
-permalink index.vue
+
 ## Build Setup
 
 ```bash
